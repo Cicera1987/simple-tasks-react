@@ -20,8 +20,7 @@ O projeto é dividido em **frontend** e **backend**, com uma configuração que 
 ---
 
 ## Estrutura do Projeto
-
-\`\`\`
+```bash
 simple-tasks-react/
 ├─ backend/
 │ ├─ db.json
@@ -34,48 +33,46 @@ simple-tasks-react/
 ├─ .gitignore
 ├─ package.json
 └─ README.md
-\`\`\`
-
+```
 ---
 
 ## ⚙️ Instalação
 
 ### 1️⃣ Clonar o repositório
 
-\`\`\`bash
+
 git clone https://github.com/Cicera1987/simple-tasks-react.git
 cd simple-tasks-react
-\`\`\`
+
 
 ### 2️⃣ Instalar dependências
 
 **Backend:**
-\`\`\`bash
+```bash
 cd backend
 npm install
 cd ..
-\`\`\`
+```
 
 **Frontend:**
-\`\`\`bash
+```bash
 cd frontend
 npm install
 cd ..
-\`\`\`
+```
 
 **Raiz do Projeto:**
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ---
 
 ## Como rodar o projeto
 
-\`\``bash
+```bash
 npm run dev
-\`\`\`
-
+```
 ---
 
 ## Sobre o Projeto
