@@ -5,9 +5,13 @@
   "scripts": {
     "frontend": "npm run dev --prefix frontend",
     "backend": "npm start --prefix backend",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@tailwindcss/postcss": "^4.1.16",
+    "concurrently": "^8.2.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2"
   }
 }
