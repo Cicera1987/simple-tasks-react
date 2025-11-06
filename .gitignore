@@ -1,0 +1,21 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.DS_Store
+
+# Frontend build
+frontend/dist
+frontend/.vite
+frontend/.env.local
+
+# Backend
+backend/node_modules
+backend/db.json
+
+# Editor configs
+.vscode
+.idea
